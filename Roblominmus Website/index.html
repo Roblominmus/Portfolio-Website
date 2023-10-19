@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiedozie Okafor Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h4>Chiedozie Okafor</h4>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Certificates</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <section class="home">
+        <div class="dark-overlay">
+            <h1>Welcome to my Portfolio</h1>
+            <p>Here you can find my skills, certificates, and projects.</p>
+            <a href="#" class="btn">View Projects</a>
+        </div>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <p>Here are some of my skills:</p>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+        </ul>
+    </section>
+
+    <section class="certificates">
+        <h2>Certificates</h2>
+        <p>Here are some of my certificates:</p>
+        <ul>
+            <li>CompTIA Security+</li>
+            <li>Certified Ethical Hacker (CEH)</li>
+            <li>Offensive Security Certified Professional (OSCP)</li>
+        </ul>
+    </section>
+
+    <section class="projects">
+        <h2>Projects</h2>
+        <p>Here are some of my projects:</p>
+        <ul>
+            <li>Web Application Penetration Testing</li>
+            <li>Network Penetration Testing</li>
+            <li>Mobile Application Penetration Testing</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Contact</h2>
+        <form action="sendEmail.php" method="POST">
+            <input type="text" name="name" placeholder="Name">
+            <input type="email" name="email" placeholder="Email">
+            <textarea name="message" placeholder="Message"></textarea>
+            <button type="submit" name="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2021 Chiedozie Okafor</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
